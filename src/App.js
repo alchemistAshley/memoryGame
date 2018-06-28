@@ -20,7 +20,7 @@ class App extends Component {
     return (
       <Fragment>
           <NavBar />
-          <div className="container row">
+          <div className="container row center-align">
             {this.state.cards.map(card => {
               return (
                 <Card 
