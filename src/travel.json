@@ -1,0 +1,77 @@
+[
+    {
+        "id": 1, 
+        "title": "Amsterdam" ,
+        "image": "/Travel/amsterdam.jpg"
+    },
+    {
+        "id": 2, 
+        "title": "Chicago" ,
+        "image": "/Travel/chicago.jpg"
+    },
+    {
+        "id": 3, 
+        "title": "Washington DC" ,
+        "image": "/Travel/dc.jpg"
+    },
+    {
+        "id": 4, 
+        "title": "Grand Canyon" ,
+        "image": "/Travel/grandcanyon.jpg"
+    },
+    {
+        "id": 5, 
+        "title": "Hawaii" ,
+        "image": "/Travel/hawaii.jpg"
+    },
+    {
+        "id": 6, 
+        "title": "Istanbul" ,
+        "image": "/Travel/istanbul.jpg"
+    },
+    {
+        "id": 7, 
+        "title": "Las Vegas" ,
+        "image": "/Travel/lasvegas.jpg"
+    },
+    {
+        "id": 8, 
+        "title": "London",
+        "image": "/Travel/london.jpg"
+    },
+    {
+        "id": 9, 
+        "title": "Los Angeles",
+        "image": "/Travel/losangeles.jpg"
+    },
+    {
+        "id": 10, 
+        "title": "New York City",
+        "image": "/Travel/newyork.jpg"
+    },
+    {
+        "id": 11, 
+        "title": "New York City",
+        "image": "/Travel/nyc.jpg"
+    },
+    {
+        "id": 12, 
+        "title": "Paris",
+        "image": "/Travel/paris.jpg"
+    },
+    {
+        "id": 13, 
+        "title": "San Francisco",
+        "image": "/Travel/sanfrancisco.jpg"
+    },
+    {
+        "id": 14, 
+        "title": "Sydney",
+        "image": "/Travel/sydney.jpg"
+    },
+    {
+        "id": 15, 
+        "title": "Tokyo",
+        "image": "/Travel/tokyo.jpg"
+    }
+]
