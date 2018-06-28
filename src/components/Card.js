@@ -10,16 +10,24 @@ const style= {
 
 
 class Card extends Component {
-    state = {
-    clicked: false
+    constructor(props) {
+        super(props);
+        this.state = {
+            clicked: false
+        }
+        this.handleOnClick = this.handleOnClick.bind(this)
+        
     }
     
     // handleOnClick
+    handleOnClick() {
+        this.setState({ clicked: true })
+    }
 
     render() {
         return (
             <Fragment>
-                <img style={style.img} key={this.props.title} src={this.props.image} alt={this.props.title}/>
+                <img onClick={this.handleOnClick} value={this.state.clicked} style={style.img} key={this.props.title} src={this.props.image} alt={this.props.title}/>
             </Fragment>
         )
     }

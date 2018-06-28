@@ -5,14 +5,19 @@ import cards from './travel.json';
 
 class App extends Component {
   state = {
-    cards: []
+    cards: [],
+    currentScore: 0,
+    highScore: 0
   }
 
   componentDidMount() {
     this.setState({ cards })
   }
 
-  // handleOnClick (call randomShuffle & handleScore)
+  onClick() {
+    // check if this.state.card === false, then add 1 to score and randomize. if false, reset game and randomize
+  }
+
   // randomShuffle
   // handleScore 
 
